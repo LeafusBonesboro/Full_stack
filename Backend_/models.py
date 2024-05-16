@@ -1,0 +1,1 @@
+#database models and how we interact with it. the sqlalchemy creates a python classs that we can define like a table we can store
