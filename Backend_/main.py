@@ -1,4 +1,5 @@
 #main routes or main endpoints. for bigger apps can seperate into multiple files
+#this is the API
 from config import app, db
 from flask import jsonify, request
 from models import Contact
