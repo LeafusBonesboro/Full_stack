@@ -4,12 +4,12 @@ import ContactForm from "./ContactForm";
 import ContactList from "./ContactList.jsx";
 
 function App() {
-  const [contacts, setContacts] = useState([{ "firstName": "Michael", "lastName": "Bernard", "email": "email", id: 1}])
+  const [contacts, setContacts] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [currentContact, setCurrentContact] = useState({})
 
   useEffect(() => {
-   // fetchContacts()
+    fetchContacts()
   }, []);
 
   const fetchContacts = async () => {
